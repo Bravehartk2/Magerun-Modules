@@ -1,8 +1,35 @@
 ##################################################################
-
+# Magerun
+#
+# NOTICE OF LICENSE
+#
+# This source file is subject to the Open Software License (OSL 3.0)
+# It is  available through the world-wide-web at this URL:
+# http://opensource.org/licenses/osl-3.0.php
+#
+#
+# @category   Magerun Command
+# @package    AskSheldonMisc
+# @copyright  Copyright (c) 2016 Marcel Lange (https://www.ask-sheldon.com)
+# @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+# @author     Marcel Lange <info@ask-sheldon.com>
+#
+# Date:       20/04/16
+# Time:       14:36
+#
+# Command registration file for n98-magerun
+##
+# @package AskSheldonMisc
+#
+# Created by IntelliJ IDEA.
+#
 ##################################################################
+
+# register mudule for autoloader
 autoloaders:
   AskSheldonMisc: %module%/src
+
+# define commands (syntax: ModulenameOrFolder\ClassnameOfCommandClass)
 commands:
   customCommands:
     - AskSheldonMisc\DeleteQuotes

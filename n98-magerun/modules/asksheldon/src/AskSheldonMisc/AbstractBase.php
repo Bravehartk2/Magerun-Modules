@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Magento
+ * Magerun
  *
  * NOTICE OF LICENSE
  *
@@ -10,7 +10,7 @@
  * http://opensource.org/licenses/osl-3.0.php
  *
  *
- * @category   AskSheldon
+ * @category   Magerun Command
  * @package    AskSheldonMisc
  * @copyright  Copyright (c) 2016 Marcel Lange (https://www.ask-sheldon.com)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
@@ -21,7 +21,7 @@
  *
  * Base class for all magerun command classes
  *
- * Class Base
+ * Class AbstractBase
  *
  *  * @package AskSheldonMisc
  *  *
