@@ -1,0 +1,10 @@
+##################################################################
+
+##################################################################
+autoloaders:
+  AskSheldonMisc: %module%/src
+commands:
+  customCommands:
+    - AskSheldonMisc\DeleteQuotes
+    - AskSheldonMisc\DeleteOrders
+    - AskSheldonMisc\DeleteAllAdmins
