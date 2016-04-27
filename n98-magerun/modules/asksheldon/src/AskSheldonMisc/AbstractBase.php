@@ -19,7 +19,7 @@
  * Date:       20/04/16
  * Time:       16:40
  *
- * Base class for all magerun command classes
+ * Base class for all Magerun command classes
  *
  * Class AbstractBase
  *

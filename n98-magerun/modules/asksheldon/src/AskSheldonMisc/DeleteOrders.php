@@ -19,7 +19,7 @@
  * Date:       20/04/16
  * Time:       14:36
  *
- * Order delete command for magerun
+ * Order delete command for Magerun
  *
  * Class DeleteOrders
  *

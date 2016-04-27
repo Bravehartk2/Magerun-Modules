@@ -19,7 +19,7 @@
  * Date:       20/04/16
  * Time:       14:36
  *
- * Admin delete command for magerun
+ * Admin delete command for Magerun
  *
  * Class DeleteAllAdmins
  *

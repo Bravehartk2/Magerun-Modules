@@ -3,7 +3,7 @@ This repositor should serve as a storage for my **_n98-magerun_** (@see: https:/
 
 # Installation
 Just put the **_n98-magerun_** folder into your **_Magento_**'s **_lib_** folder (**_MAGENTOROOT/lib/_**).
-Afterwards you should see the following additional commands in the commandlist of magerun when running
+Afterwards you should see the following additional commands in the commandlist of **_Magerun_** when running
 
 ```
 $> n98-magerun
