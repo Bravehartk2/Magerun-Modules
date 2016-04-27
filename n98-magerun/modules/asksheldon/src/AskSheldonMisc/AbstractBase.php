@@ -64,7 +64,7 @@ abstract class AbstractBase extends AbstractMagentoCommand
         $sQuery = "
             UPDATE eav_entity_store AS ees
             INNER JOIN eav_entity_type AS eet ON eet.entity_type_id = ees.entity_type_id
-            SET ees.increment_last_id = LEFT(CONCAT(ees.increment_prefix, '00000000'), 9)
+            SET ees.increment_last_id = CONCAT(LEFT(CONCAT(ees.increment_prefix, '00000000'), 8), '1')
             WHERE FIND_IN_SET(eet.entity_type_code, ?)
         ";
         $sQuery = $oWriter->quoteInto($sQuery, $mEntityTypeCode);
